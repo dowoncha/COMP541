@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ALUcomp_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ALUcomp_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="6" />
+   <wvobject db_ref_id="1" fp_name="/ALUcomp_test/A" type="array">
+      <obj_property name="ElementShortName">A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ALUcomp_test/B" type="array">
+      <obj_property name="ElementShortName">B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ALUcomp_test/ALUfn" type="array">
+      <obj_property name="ElementShortName">ALUfn[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUfn[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ALUcomp_test/R" type="array">
+      <obj_property name="ElementShortName">R[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ALUcomp_test/FlagZ" type="logic">
+      <obj_property name="ElementShortName">FlagZ</obj_property>
+      <obj_property name="ObjectShortName">FlagZ</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ALUcomp_test/width" type="array">
+      <obj_property name="ElementShortName">width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">width[31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,90 @@
+
+Warning: ExploreAhead works best with Microsoft WSH 5.6 or higher. Downloads
+         for upgrading your Windows Scripting Host can be found here: 
+             http://msdn.microsoft.com/downloads/list/webdev.asp
+
+
+*** Running vivado
+    with args -log top.vds -m64 -mode batch -messageDb vivado.pb -source top.tcl
+
+
+****** Vivado v2014.4 (64-bit)
+  **** SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+  **** IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl
+# set_param gui.test TreeTableDev
+# debug::add_scope template.lib 1
+# set_msg_config -id {Common-41} -limit 4294967295
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7a100tcsg324-1
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:0.9 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/0.9/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.0 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/1.0/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.1 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/1.1/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:0.9 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/0.9/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.0 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/1.0/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.1 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/1.1/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir C:/Comp541Projects/Lab10/Lab10.cache/wt [current_project]
+# set_property parent.project_path C:/Comp541Projects/Lab10/Lab10.xpr [current_project]
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language Verilog [current_project]
+# read_verilog -library xil_defaultlib -sv {
+#   C:/Comp541Projects/Lab10/Lab10.srcs/sources_1/imports/new/register_file.sv
+#   C:/Comp541Projects/Lab10/Lab10.srcs/sources_1/imports/new/datapath.v
+#   C:/Comp541Projects/Lab10/Lab10.srcs/sources_1/new/controller.sv
+#   C:/Comp541Projects/Lab10/Lab10.srcs/sources_1/new/imem.sv
+#   C:/Comp541Projects/Lab10/Lab10.srcs/sources_1/new/dmem.sv
+#   C:/Comp541Projects/Lab10/Lab10.srcs/sources_1/new/mips.sv
+#   C:/Comp541Projects/Lab10/Lab10.srcs/sources_1/new/top.sv
+# }
+# read_verilog -library xil_defaultlib {
+#   C:/Comp541Projects/Lab10/Lab10.srcs/sources_1/imports/sources_1/imports/new/fulladder.v
+#   C:/Comp541Projects/Lab10/Lab10.srcs/sources_1/imports/sources_1/new/adder.v
+#   C:/Comp541Projects/Lab10/Lab10.srcs/sources_1/imports/sources_1/imports/Lab_3/shifter.v
+#   C:/Comp541Projects/Lab10/Lab10.srcs/sources_1/imports/sources_1/imports/Lab_3/logical.v
+#   C:/Comp541Projects/Lab10/Lab10.srcs/sources_1/imports/sources_1/imports/Lab_3/comparator.v
+#   C:/Comp541Projects/Lab10/Lab10.srcs/sources_1/imports/sources_1/new/addsub.v
+#   C:/Comp541Projects/Lab10/Lab10.srcs/sources_1/imports/sources_1/imports/Lab_3/ALU.v
+# }
+# catch { write_hwdef -file top.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top top -part xc7a100tcsg324-1
+Command: synth_design -top top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+ERROR: [Synth 8-2715] syntax error near 'b [C:/Comp541Projects/Lab10/Lab10.srcs/sources_1/imports/new/datapath.v:71]
+ERROR: [Synth 8-2715] syntax error near } [C:/Comp541Projects/Lab10/Lab10.srcs/sources_1/imports/new/datapath.v:71]
+INFO: [Synth 8-2350] module datapath ignored due to previous errors [C:/Comp541Projects/Lab10/Lab10.srcs/sources_1/imports/new/datapath.v:3]
+Failed to read verilog 'C:/Comp541Projects/Lab10/Lab10.srcs/sources_1/imports/new/datapath.v'
+    while executing
+"rt::read_verilog -sv {
+      C:/Comp541Projects/Lab10/Lab10.srcs/sources_1/imports/new/register_file.sv
+      C:/Comp541Projects/Lab10/Lab10.srcs/sour..."
+    invoked from within
+"if {$rt::useElabCache == false} {
+      rt::read_verilog -sv {
+      C:/Comp541Projects/Lab10/Lab10.srcs/sources_1/imports/new/register_file.sv
+      ..."
+    ("uplevel" body line 22)
+    invoked from within
+"uplevel #0 {
+    set ::env(BUILTIN_SYNTH) true
+    source $::env(HRT_TCL_PATH)/rtSynthPrep.tcl
+    rt::HARTNDb_resetJobStats
+    rt::HARTNDb_startJobS..."
+INFO: [Common 17-83] Releasing license: Synthesis
+3 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+
+    while executing
+"source -notrace {./.Xil/Vivado-4292-WIN-J6S6SLUABEI/realtime\top.tcl}"
+    invoked from within
+"synth_design -top top -part xc7a100tcsg324-1"
+    (file "top.tcl" line 37)
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 02 14:26:00 2015...

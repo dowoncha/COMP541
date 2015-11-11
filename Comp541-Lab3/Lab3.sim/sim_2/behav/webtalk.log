@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Wed Jan 28 19:40:29 2015
+# Process ID: 9176
+# Log file: E:/Libraries/Documents/GitHub/Comp541Lab3/Lab3/Lab3.sim/sim_2/behav/webtalk.log
+# Journal file: E:/Libraries/Documents/GitHub/Comp541Lab3/Lab3/Lab3.sim/sim_2/behav\webtalk.jou
+#-----------------------------------------------------------
+source E:/Libraries/Documents/GitHub/Comp541Lab3/Lab3/Lab3.sim/sim_2/behav/xsim.dir/ALUcomp_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/Libraries/Documents/GitHub/Comp541Lab3/Lab3/Lab3.sim/sim_2/behav/xsim.dir/ALUcomp_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Jan 28 19:40:32 2015. For additional details about this file, please refer to the WebTalk help file at D:/Vivado/Vivado/2014.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Wed Jan 28 19:40:32 2015...

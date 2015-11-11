@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Fri Apr 10 11:28:39 2015
+# Process ID: 4928
+# Log file: C:/Comp541Projects/Lab10/vivado.log
+# Journal file: C:/Comp541Projects/Lab10\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Comp541Projects/Lab10/Lab10.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Comp541Projects/Lab10\mips_test_sqr_behav.wcfg}
+source mips_test_sqr.tcl
+close_sim

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mips_test_sqr_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mips_test_sqr" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="75" />
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/instr" type="array">
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/mem_addr" type="array">
+      <obj_property name="ElementShortName">mem_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/mem_wr" type="logic">
+      <obj_property name="ElementShortName">mem_wr</obj_property>
+      <obj_property name="ObjectShortName">mem_wr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/mem_readdata" type="array">
+      <obj_property name="ElementShortName">mem_readdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_readdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/mem_writedata" type="array">
+      <obj_property name="ElementShortName">mem_writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_writedata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/werf" type="logic">
+      <obj_property name="ElementShortName">werf</obj_property>
+      <obj_property name="ObjectShortName">werf</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/alufn" type="array">
+      <obj_property name="ElementShortName">alufn[4:0]</obj_property>
+      <obj_property name="ObjectShortName">alufn[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/Z" type="logic">
+      <obj_property name="ElementShortName">Z</obj_property>
+      <obj_property name="ObjectShortName">Z</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ReadData1" type="array">
+      <obj_property name="ElementShortName">ReadData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ReadData2" type="array">
+      <obj_property name="ElementShortName">ReadData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/alu_result" type="array">
+      <obj_property name="ElementShortName">alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/reg_writeaddr" type="array">
+      <obj_property name="ElementShortName">reg_writeaddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_writeaddr[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/reg_writedata" type="array">
+      <obj_property name="ElementShortName">reg_writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_writedata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/signImm" type="array">
+      <obj_property name="ElementShortName">signImm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">signImm[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/aluA" type="array">
+      <obj_property name="ElementShortName">aluA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluA[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/aluB" type="array">
+      <obj_property name="ElementShortName">aluB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluB[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/pcsel" type="array">
+      <obj_property name="ElementShortName">pcsel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pcsel[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/wasel" type="array">
+      <obj_property name="ElementShortName">wasel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wasel[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/sext" type="logic">
+      <obj_property name="ElementShortName">sext</obj_property>
+      <obj_property name="ObjectShortName">sext</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/bsel" type="logic">
+      <obj_property name="ElementShortName">bsel</obj_property>
+      <obj_property name="ObjectShortName">bsel</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/wdsel" type="array">
+      <obj_property name="ElementShortName">wdsel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wdsel[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/wr" type="logic">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/asel" type="array">
+      <obj_property name="ElementShortName">asel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">asel[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/c_pc" type="array">
+      <obj_property name="ElementShortName">c_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_pc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/c_instr" type="array">
+      <obj_property name="ElementShortName">c_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_instr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/c_mem_addr" type="array">
+      <obj_property name="ElementShortName">c_mem_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mem_addr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/c_mem_wr" type="logic">
+      <obj_property name="ElementShortName">c_mem_wr</obj_property>
+      <obj_property name="ObjectShortName">c_mem_wr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/c_mem_readdata" type="array">
+      <obj_property name="ElementShortName">c_mem_readdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mem_readdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/c_mem_writedata" type="array">
+      <obj_property name="ElementShortName">c_mem_writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mem_writedata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/c_werf" type="logic">
+      <obj_property name="ElementShortName">c_werf</obj_property>
+      <obj_property name="ObjectShortName">c_werf</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/c_alufn" type="array">
+      <obj_property name="ElementShortName">c_alufn[4:0]</obj_property>
+      <obj_property name="ObjectShortName">c_alufn[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/c_Z" type="logic">
+      <obj_property name="ElementShortName">c_Z</obj_property>
+      <obj_property name="ObjectShortName">c_Z</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/c_ReadData1" type="array">
+      <obj_property name="ElementShortName">c_ReadData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_ReadData1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/c_ReadData2" type="array">
+      <obj_property name="ElementShortName">c_ReadData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_ReadData2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/c_alu_result" type="array">
+      <obj_property name="ElementShortName">c_alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_alu_result[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/c_reg_writeaddr" type="array">
+      <obj_property name="ElementShortName">c_reg_writeaddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">c_reg_writeaddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/c_reg_writedata" type="array">
+      <obj_property name="ElementShortName">c_reg_writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_reg_writedata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/c_signImm" type="array">
+      <obj_property name="ElementShortName">c_signImm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_signImm[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/c_aluA" type="array">
+      <obj_property name="ElementShortName">c_aluA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_aluA[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/c_aluB" type="array">
+      <obj_property name="ElementShortName">c_aluB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_aluB[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/c_pcsel" type="array">
+      <obj_property name="ElementShortName">c_pcsel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">c_pcsel[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/c_wasel" type="array">
+      <obj_property name="ElementShortName">c_wasel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">c_wasel[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/c_sext" type="logic">
+      <obj_property name="ElementShortName">c_sext</obj_property>
+      <obj_property name="ObjectShortName">c_sext</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/c_bsel" type="logic">
+      <obj_property name="ElementShortName">c_bsel</obj_property>
+      <obj_property name="ObjectShortName">c_bsel</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/c_wdsel" type="array">
+      <obj_property name="ElementShortName">c_wdsel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">c_wdsel[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/c_wr" type="logic">
+      <obj_property name="ElementShortName">c_wr</obj_property>
+      <obj_property name="ObjectShortName">c_wr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/c_asel" type="array">
+      <obj_property name="ElementShortName">c_asel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">c_asel[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR" type="logic">
+      <obj_property name="ElementShortName">ERROR</obj_property>
+      <obj_property name="ObjectShortName">ERROR</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR_pc" type="logic">
+      <obj_property name="ElementShortName">ERROR_pc</obj_property>
+      <obj_property name="ObjectShortName">ERROR_pc</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR_instr" type="logic">
+      <obj_property name="ElementShortName">ERROR_instr</obj_property>
+      <obj_property name="ObjectShortName">ERROR_instr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR_mem_addr" type="logic">
+      <obj_property name="ElementShortName">ERROR_mem_addr</obj_property>
+      <obj_property name="ObjectShortName">ERROR_mem_addr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR_mem_wr" type="logic">
+      <obj_property name="ElementShortName">ERROR_mem_wr</obj_property>
+      <obj_property name="ObjectShortName">ERROR_mem_wr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR_mem_readdata" type="logic">
+      <obj_property name="ElementShortName">ERROR_mem_readdata</obj_property>
+      <obj_property name="ObjectShortName">ERROR_mem_readdata</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR_mem_writedata" type="logic">
+      <obj_property name="ElementShortName">ERROR_mem_writedata</obj_property>
+      <obj_property name="ObjectShortName">ERROR_mem_writedata</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR_werf" type="logic">
+      <obj_property name="ElementShortName">ERROR_werf</obj_property>
+      <obj_property name="ObjectShortName">ERROR_werf</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR_alufn" type="logic">
+      <obj_property name="ElementShortName">ERROR_alufn</obj_property>
+      <obj_property name="ObjectShortName">ERROR_alufn</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR_Z" type="logic">
+      <obj_property name="ElementShortName">ERROR_Z</obj_property>
+      <obj_property name="ObjectShortName">ERROR_Z</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR_ReadData1" type="logic">
+      <obj_property name="ElementShortName">ERROR_ReadData1</obj_property>
+      <obj_property name="ObjectShortName">ERROR_ReadData1</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR_ReadData2" type="logic">
+      <obj_property name="ElementShortName">ERROR_ReadData2</obj_property>
+      <obj_property name="ObjectShortName">ERROR_ReadData2</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR_alu_result" type="logic">
+      <obj_property name="ElementShortName">ERROR_alu_result</obj_property>
+      <obj_property name="ObjectShortName">ERROR_alu_result</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR_reg_writeaddr" type="logic">
+      <obj_property name="ElementShortName">ERROR_reg_writeaddr</obj_property>
+      <obj_property name="ObjectShortName">ERROR_reg_writeaddr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR_reg_writedata" type="logic">
+      <obj_property name="ElementShortName">ERROR_reg_writedata</obj_property>
+      <obj_property name="ObjectShortName">ERROR_reg_writedata</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR_signImm" type="logic">
+      <obj_property name="ElementShortName">ERROR_signImm</obj_property>
+      <obj_property name="ObjectShortName">ERROR_signImm</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR_aluA" type="logic">
+      <obj_property name="ElementShortName">ERROR_aluA</obj_property>
+      <obj_property name="ObjectShortName">ERROR_aluA</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR_aluB" type="logic">
+      <obj_property name="ElementShortName">ERROR_aluB</obj_property>
+      <obj_property name="ObjectShortName">ERROR_aluB</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR_pcsel" type="logic">
+      <obj_property name="ElementShortName">ERROR_pcsel</obj_property>
+      <obj_property name="ObjectShortName">ERROR_pcsel</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR_wasel" type="logic">
+      <obj_property name="ElementShortName">ERROR_wasel</obj_property>
+      <obj_property name="ObjectShortName">ERROR_wasel</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR_sext" type="logic">
+      <obj_property name="ElementShortName">ERROR_sext</obj_property>
+      <obj_property name="ObjectShortName">ERROR_sext</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR_bsel" type="logic">
+      <obj_property name="ElementShortName">ERROR_bsel</obj_property>
+      <obj_property name="ObjectShortName">ERROR_bsel</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR_wdsel" type="logic">
+      <obj_property name="ElementShortName">ERROR_wdsel</obj_property>
+      <obj_property name="ObjectShortName">ERROR_wdsel</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR_wr" type="logic">
+      <obj_property name="ElementShortName">ERROR_wr</obj_property>
+      <obj_property name="ObjectShortName">ERROR_wr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mips_test_sqr/ERROR_asel" type="logic">
+      <obj_property name="ElementShortName">ERROR_asel</obj_property>
+      <obj_property name="ObjectShortName">ERROR_asel</obj_property>
+   </wvobject>
+</wave_config>
